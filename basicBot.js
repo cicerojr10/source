@@ -236,7 +236,7 @@
     var botCreatorIDs = ["3851534", "4105209"];
 
     var basicBot = {
-        version: "666 da Rock online está",
+        version: "666 da Rock online esta",
         status: false,
         name: "basicBot",
         loggedInID: null,
