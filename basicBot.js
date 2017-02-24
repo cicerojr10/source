@@ -963,7 +963,7 @@
             if (typeof lastplay === 'undefined') return;
             if (basicBot.settings.songstats) {
                 if (typeof basicBot.chat.songstatistics === "undefined") {
-                    API.sendChat("/me " + lastplay.media.author + " - " + lastplay.media.title + ": " + lastplay.score.positive + "W/" + lastplay.score.grabs + "G/" + lastplay.score.negative + "M.")
+                    API.sendChat("/me " + lastplay.media.author + " - " + lastplay.media.title + ": " + lastplay.score.positive + "Legal/" + lastplay.score.grabs + "Add/" + lastplay.score.negative + "Chato. Rock Online :metal:")
                 }
                 else {
                     API.sendChat(subChat(basicBot.chat.songstatistics, {artist: lastplay.media.author, title: lastplay.media.title, woots: lastplay.score.positive, grabs: lastplay.score.grabs, mehs: lastplay.score.negative}))
@@ -1492,7 +1492,7 @@
             /**
              command: {
                         command: 'cmd',
-                        rank: 'manager',
+                        rank: 'user/bouncer/mod/manager',
                         type: 'startsWith/exact',
                         functionality: function(chat, cmd){
                                 if(this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
