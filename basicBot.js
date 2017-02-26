@@ -300,7 +300,7 @@
             welcome: true,
             opLink: null,
             rulesLink: null,
-            themeLink: null,
+            themeLink: "https://pt.wikipedia.org/wiki/Lista_de_g%C3%AAneros_de_rock",
             fbLink: "https://www.facebook.com/groups/rockonlineplugdj/",
             youtubeLink: null,
             website: "https://www.facebook.com/groups/rockonlineplugdj/",
@@ -3267,7 +3267,7 @@
 
             themeCommand: {
                 command: 'theme',
-                rank: 'user',
+                rank: 'bouncer',
                 type: 'exact',
                 functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
